@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <!-- Vue.JS IMPORT -->
         <script src="node_modules/vue/dist/vue.min.js"></script>
+        <script src="scripts/main.js"></script>
 
         <!-- MAIN CSS IMPORT -->
         <link rel="stylesheet" href="styles/main.css">
     </head>
 
-    <!-- TODO: Crear estructura de DIVs -->
-    <!-- TODO: Formatear los DIVs con CSS -->
+    <!-- TODO: Añadir DIVs para los contenidos -->
     <!-- TODO: Buscar algo de docs de VUE.js -->
 
     <body>
         <!-- HEADER DIV -->
         <div id="Header">
-            <h2>Header</h2>
+            <h1>Header</h1>
         </div>
 
 
         <!-- MAIN CONTENT DIV -->
         <div id="MainContent">
-            <h2>MainContent</h2>
-            <h1>WIP Página Web Personal</h1>
-            <p>miavgu</p>
-            <p>Tw: solidmiki21</p>
+            <div id= "CS_1" class="ContentSection">
+                <h2>Sobre mí</h2>
+                <p></p>
+                <!-- Cosas sobre mi, intereses, trabajo... + Imagen -->
+            </div>
+            
+            <div id= "CS_2" class="ContentSection">
+                <h2>CV</h2>
+                <!-- Texto introductorio y URL al CV -->
+            </div>
+            
+            <div id= "CS_3" class="ContentSection">
+                <h2>Publicaciones & Proyectos</h2>
+                <!-- Slider con los proyectos y publicaciones -->
+            </div>
+        
+            <div id= "CS_4" class="ContentSection">
+                <h2>Contacto</h2>
+                <!-- Form para enviar un correo electrónico -->
+            </div>
+
         </div>
 
         <!-- FOOT PAGE DIV -->
         <div id="FootPage">
-            <h2>FootPage</h2>
+            <h1>FootPage</h1>
         </div>
     </body>
 </html>

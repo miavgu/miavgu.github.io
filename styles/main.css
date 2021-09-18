@@ -1,11 +1,37 @@
+* {
+    margin: 0px;
+}
+
 #Header {
     background-color: cadetblue;
+    width: 100%;
+    position: sticky;
+    top:0px;
 }
 
 #MainContent {
     background-color: coral;
 }
 
-#FootPage {
+.ContentSection{
+    height: 10cm;
+}
+
+#CS_1,#CS_3 {
     background-color: cornsilk;
+}
+
+#CS_2,#CS_4 {
+    background-color:crimson;
+}
+
+.ContentSection p{
+    width: 50%;
+}
+
+#FootPage {
+    background-color: darkkhaki;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
 }
