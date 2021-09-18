@@ -1,11 +1,11 @@
-.Header {
-    color: cadetblue;
+#Header {
+    background-color: cadetblue;
 }
 
-.MainContent {
-    color: coral;
+#MainContent {
+    background-color: coral;
 }
 
-.FootPage {
-    color: cornsilk;
+#FootPage {
+    background-color: cornsilk;
 }
